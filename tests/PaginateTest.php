@@ -64,4 +64,13 @@ class PaginateTest extends TestCase
         $this->assertEquals('http://website.com/test?foo=1',
             $this->p->url($this->p->currentPage() - 2));
     }
+<<<<<<< HEAD
+=======
+
+    /** @test */
+    public function it_gives_links()
+    {
+        $collection = new Collection(range(0, 22));
+    }
+>>>>>>> d320703ac6b4e415c5f7ff6e21e87be1b3c2ddfc
 }
